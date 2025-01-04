@@ -2,15 +2,8 @@ const linkedIn = require("./index");
 
 const queryOptions = {
   keyword: "",
-  location: "India",
-  dateSincePosted: "past Week",
-  jobType: "full time",
-  remoteFilter: "remote",
-  salary: "100000",
-  experienceLevel: "entry level",
-  limit: "1",
-  sortBy: "recent",
-  page: "1",
+  location: "New York",
+  keyword: "Software Engineer",
 };
 
 linkedIn.query(queryOptions).then((response) => {
